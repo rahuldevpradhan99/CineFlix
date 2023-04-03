@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Theater</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3>Movies Theater</h3>
+        <form id="form">
+          <input
+            type="text"
+            id="search"
+            class="search"
+            autocomplete="off"
+            placeholder="Search"
+          />
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section id="category"></section>
+      <section id="movie__container"></section>
+      <section class="pagination">
+        <div id="preview" class="disabled">Previews</div>
+        <div id="current">1</div>
+        <div id="next">Next</div>
+      </section>
+    </main>
+    <!-- js link -->
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
